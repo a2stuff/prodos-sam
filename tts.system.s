@@ -46,8 +46,8 @@ HOME    := $FC58
 COUT    := $FDED
 
 message:
-        .byte   "S.A.M. The Software Automatic Mouth", $0D
-        .byte   "By DON'T ASK Computer Software", $0D
+        .byte   " S.A.M. - The Software Automatic Mouth", $0D
+        .byte   "By DON'T ASK Computer Software  (C) 1982", $0D, $0D
         .byte   0
 
 default:
