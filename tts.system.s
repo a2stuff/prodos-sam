@@ -176,7 +176,7 @@ start:
         sta     SAM_SPEED
         lda     #72
         sta     SAM_PITCH
-        lda     #255
+        lda     #0
         sta     SAM_ECHO
         lda     #255
         sta     SAM_REC
