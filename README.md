@@ -122,7 +122,7 @@ CHR$(20) - sets REC
 CHR$(16) - clears REC
 CHR$(13) - (i.e. carriage return) flush the buffer
 
-REC is Reciter Mode. The S.A.M. manual on Asimov (which details a very different API, but the concepts are the same) describes it in detail. With Reciter Mode enabled, you can use english words and S.A.M. will infer phonemes using $MAGIC. With Reciter Mode disabled, you need to use explicit phonemes, e.g. CHR$(16);"AE4PUL TUX4 FOH4EH2ER4" (tables/examples in the manual)
+REC is Reciter Mode. The [S.A.M. manual on Asimov](https://mirrors.apple2.org.za/ftp.apple.asimov.net/documentation/hardware/sound/s.a.m.pdf) (which details a very different API, but the concepts are the same) describes it in detail. With Reciter Mode enabled, you can use english words and S.A.M. will infer phonemes using heuristics. With Reciter Mode disabled, you need to use explicit phonemes, e.g. CHR$(16);"AE4PUL TUX4 FOH4EH2VER4" (tables/examples in the manual)
 
 Here's a slightly longer version:
 ```
